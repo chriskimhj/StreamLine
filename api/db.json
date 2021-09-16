@@ -1,0 +1,34 @@
+{
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This is a great stream.",
+      "id": 1
+    },
+    {
+      "title": "Other Stream",
+      "description": "Here's some stream.",
+      "id": 2
+    },
+    {
+      "title": "My Stream",
+      "description": "This stream is great!",
+      "id": 3
+    },
+    {
+      "title": "New Stream",
+      "description": "This is a reused stream! Edit here!",
+      "id": 6
+    },
+    {
+      "creator": "Chris Kim",
+      "youtubeHandle": " ",
+      "title": "Final Social Media Handle Test",
+      "description": "asd",
+      "instagramHandle": " ",
+      "twitterHandle": " ",
+      "userId": "107763306168403268464",
+      "id": 7
+    }
+  ]
+}

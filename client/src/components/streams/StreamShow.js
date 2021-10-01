@@ -49,10 +49,11 @@ class StreamShow extends React.Component{
             src={carouselBackground}
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h3>{stream.title}</h3>
+          <Carousel.Caption className="carousel-text">
+            <h3 >{stream.title}</h3>
             <h5>{stream.creator}</h5>
             <p>{stream.description}</p>
+            <br/>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -61,13 +62,12 @@ class StreamShow extends React.Component{
             src={carouselBackground}
             alt="Second slide"
           />
-          <Carousel.Caption>
-            <div style={{'text-align':'right'}}>
-              <h3>Connect with {stream.creator}</h3>
-              <div>@{stream.instagramHandle} <GrInstagram/> </div>
-              <div>@{stream.youtubeHandle} <GrYoutube/> </div>
-              <div>@{stream.twitterHandle} <GrTwitter/> </div>
-            </div>
+          <Carousel.Caption className="carousel-text">
+            <h3>Connect with {stream.creator}</h3>
+            <div>@{stream.instagramHandle} <GrInstagram/> </div>
+            <div>@{stream.youtubeHandle} <GrYoutube/> </div>
+            <div>@{stream.twitterHandle} <GrTwitter/> </div>
+            <br/><br/>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -84,6 +84,7 @@ class StreamShow extends React.Component{
       <div>
         <br/>
         {this.renderStreamDetails(this.props.stream)}
+        <br/>
         <video className="video-border" ref={this.videoRef} style={{width:'100%'}} controls={true}/>
       </div>
     );

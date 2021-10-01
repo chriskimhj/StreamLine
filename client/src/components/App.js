@@ -8,7 +8,8 @@ import StreamShow from './streams/StreamShow';
 import Header from './Header';
 import history from '../history';
 import {Container} from 'react-bootstrap';
-import appBackground from '../images/appBackground.jpg';
+import "./App.css";
+
 const App = () => {
   return (
     <div>

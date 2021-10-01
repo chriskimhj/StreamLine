@@ -3,6 +3,8 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {fetchStream, editStream} from '../../actions';
 import StreamForm from './StreamForm';
+import "./StreamEdit.css";
+
 
 class StreamEdit extends React.Component{
   componentDidMount() {
@@ -18,8 +20,9 @@ class StreamEdit extends React.Component{
       return <div>Loading...</div>;
     }
     return (
-      <div>
-        <h3>Edit a Stream</h3>
+      <div className="div-text-color">
+        <br/><br/>
+        <h3><strong>Edit Stream</strong></h3>
         <StreamForm
           initialValues={
             _.pick(

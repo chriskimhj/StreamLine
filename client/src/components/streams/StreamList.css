@@ -1,23 +1,16 @@
 .color-button{
   background-color:#000a0c;
-  border:2px solid #982daf;
+  border:2px solid #0dbf1f;
 }
 
 .color-button:hover{
-  background-color:#982daf;
-  border:2px solid #982daf;
-}
-
-.color-jumbotron{
-  margin-top: 10px;
-  background-color: #000a0c;
-  border-style: solid;
-  border-color:#982daf;
+  background-color:#0dbf1f;
+  border:2px solid #0dbf1f;
 }
 
 .color-card{
   background-color: #000a0c;
-  border-color:white;
+  border:3px solid #982daf;
 }
 
 .color-text{

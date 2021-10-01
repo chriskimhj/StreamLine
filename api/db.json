@@ -1,34 +1,24 @@
 {
   "streams": [
     {
-      "title": "My Stream",
-      "description": "This is a great stream.",
+      "creator": "HelpMeCode!",
+      "youtubeHandle": "Part-Time Strings",
+      "twitterHandle": " twitterTest1",
+      "title": "StreamLine Demo Different Title",
+      "description": "This stream is meant to showcase a working stream. The stream will consist of a quick tour of the website followed by a sample use case. Also, please enjoy viewing some sweat FN mechanics.",
+      "instagramHandle": "partimestrings",
+      "userId": "107763306168403268464",
       "id": 1
     },
     {
-      "title": "Other Stream",
-      "description": "Here's some stream.",
-      "id": 2
-    },
-    {
-      "title": "My Stream",
-      "description": "This stream is great!",
-      "id": 3
-    },
-    {
-      "title": "New Stream",
-      "description": "This is a reused stream! Edit here!",
-      "id": 6
-    },
-    {
       "creator": "Chris Kim",
-      "youtubeHandle": " ",
-      "title": "Final Social Media Handle Test",
-      "description": "asd",
       "instagramHandle": " ",
+      "youtubeHandle": " ",
       "twitterHandle": " ",
+      "title": "Stream Test",
+      "description": "Descr",
       "userId": "107763306168403268464",
-      "id": 7
+      "id": 2
     }
   ]
 }

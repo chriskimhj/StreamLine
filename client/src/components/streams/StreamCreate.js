@@ -3,6 +3,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {createStream} from '../../actions';
 import StreamForm from './StreamForm';
+import "./StreamCreate.css";
 
 class StreamCreate extends React.Component {
 
@@ -14,8 +15,9 @@ class StreamCreate extends React.Component {
   render(){
     const defaultSocialMediaHandles = {'instagramHandle':"", 'youtubeHandle':"", 'twitterHandle':""};
     return(
-      <div>
-        <h3>Create a Stream</h3>
+      <div className="div-text-color">
+        <br/><br/>
+        <h3><strong>Create Stream</strong></h3>
         <StreamForm
           initialValues={
             _.pick(
